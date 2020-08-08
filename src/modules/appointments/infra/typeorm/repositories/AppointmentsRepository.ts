@@ -13,6 +13,7 @@ class AppointmentsRepository implements IAppointmentsRepository {
     }
 
     public async findByDate(date: Date): Promise<Appointment | undefined> {
+        console.log('cheogu');
         const findAppointment = await this.ormRepository.findOne({
             where: { date },
         });
