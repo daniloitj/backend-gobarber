@@ -1,8 +1,12 @@
+0- usar o .env.exemple -> .env
+
 1- Verificar banco dados (hots, user, senha | depois rodar: yarn typeorm migration:run)
+
 2- yarn install
+
 3- yarn dev:server
 
-obs: yarn typeorm migration:create -n nome
+help: yarn typeorm migration:create -n nome
 
 # Atualização do perfil
 
